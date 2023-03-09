@@ -1,5 +1,10 @@
+// nest
 import { Controller, Get, Query } from '@nestjs/common';
+// endregion
+
+// services
 import { ViacepService } from './viacep.service';
+// endregion
 
 @Controller('viacep')
 export class ViacepController {
@@ -8,7 +13,7 @@ export class ViacepController {
   ) {}
 
   @Get()
-  async getAdress(@Query('cep') cep: string): Promise<any> {
+  async getAddress(@Query('cep') cep: string): Promise<any> {
     return await this.viacepService.getAddress(cep);
   }
 }
