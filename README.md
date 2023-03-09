@@ -25,5 +25,5 @@
 
 ## Rodar o projeto completo
 <ul>
-  <li>Agora que o projeto foi configurado, acesse o projeto de frontend nesse link <a href="">aqui</a>https://github.com/FLzn/Project-ViaCEP-Front</li>
+  <li>Agora que o projeto foi configurado, acesse o projeto de frontend nesse link <a href="https://github.com/FLzn/Project-ViaCEP-Front">aqui</a></li>
 </ul>
